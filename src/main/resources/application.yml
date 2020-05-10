@@ -1,0 +1,4 @@
+server:
+  port: 9002
+
+tradeverifier.baseurl: http://localhost:9001
