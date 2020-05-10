@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-@AutoConfigureStubRunner(ids="com.digi:trade:+:stubs:9001",
+@AutoConfigureStubRunner(ids="com.digi:contractrepo:+:stubs:9001",
                          stubsMode = StubRunnerProperties.StubsMode.LOCAL)
 class TradeApplicationTests {
 
